@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephany Abi Chakra - Portfolio</title>
+    <style>
+        body { font-family: 'Verdana', sans-serif; line-height: 1.6; margin: 0; padding: 0; color: #333; background: #f4f4f9; }
+        .container { width: 90%; max-width: 1100px; margin: auto; overflow: hidden; padding: 20px 0; }
+        header, footer { background: #4caf50; color: white; text-align: center; padding: 10px 0; }
+        h2 { color: #4caf50; }
+        nav a { color: white; text-decoration: none; margin-right: 15px; }
+        nav a:hover { text-decoration: underline; }
+        ul { list-style-type: square; padding-left: 20px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        table th, table td { border: 1px solid #ddd; padding: 8px; }
+        table th { background-color: #4caf50; color: white; }
+        .gallery { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+        .gallery img { width: 200px; height: auto; border-radius: 10px; border: 1px solid #ccc; transition: transform 0.3s ease; }
+        .gallery img:hover { transform: scale(1.1); }
+        form { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        form input, form textarea, form button { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
+        form button { background: #4caf50; color: white; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Stephany Abi Chakra - Portfolio</h1>
+        <nav>
+            <a href=" https://stephanyabichakra06.github.io/Stephany-Abi-Chakra/index.html">Home</a>
+            <a href=" https://stephanyabichakra06.github.io/Stephany-Abi-Chakra/cv.html">Curriculum Vitae</a>
+            <a href=" https://stephanyabichakra06.github.io/Stephany-Abi-Chakra/gallery.html">Gallery</a>
+            <a href=" https://stephanyabichakra06.github.io/Stephany-Abi-Chakra/contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home" class="container">
+        <h2>Welcome to My Portfolio!</h2>
+        <p>Hi, I'm Stephany Abi Chakra, a first-year business student passionate about marketing and web design. This portfolio showcases my journey as I learn and grow in my field. While this is my first project, I’m excited to explore web development, marketing strategies, and business concepts through hands-on work!</p>
+        <h3>Skills & Tools I'm Learning:</h3>
+        <table>
+            <tr><th>Skill</th><th>Proficiency</th></tr>
+            <tr><td>HTML</td><td>Beginner</td></tr>
+            <tr><td>CSS</td><td>Beginner</td></tr>
+            <tr><td>Business Strategy</td><td>Intermediate (Coursework)</td></tr>
+        </table>
+        <p>As a business student, I’m eager to apply my knowledge of consumer behavior and marketing strategies into future projects. I believe strong web design plays a critical role in effective business marketing.</p>
+    </section>
+
+    <section id="cv" class="container">
+        <h2>Curriculum Vitae</h2>
+        <h3>Internship Experience</h3>
+        <ul>
+            <li><strong>Marketing Intern at XYZ Company, Lebanon</strong> (2025-Present)
+                <ul>
+                    <li>Assisted in social media management and content creation.</li>
+                    <li>Contributed to brainstorming and executing marketing campaigns.</li>
+                    <li>Conducted market research to analyze consumer behavior.</li>
+                </ul>
+            </li>
+        </ul>
+        <h3>Education</h3>
+        <ul>
+            <li>Bachelor of Business Administration - Lebanese University (2024-Present)</li>
+        </ul>
+    </section>
+
+    <section id="gallery" class="container">
+        <h2>My Gallery</h2>
+        <div class="gallery">
+            <img src="project1.jpg" alt="Project 1">
+            <img src="project2.jpg" alt="Project 2">
+            <img src="project3.jpg" alt="Project 3">
+        </div>
+        <p>These are examples of how I envision future marketing and design projects. Even though I’m just starting, I’m passionate about exploring how design and marketing can intersect to create impactful business strategies.</p>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your full name..." required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email..." required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your message..." rows="5" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Stephany Abi Chakra. All rights reserved.</p>
+    </footer>
+</body>
+</html>
